@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .glow {
+            text-shadow: 0px 0px 15px white;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        img {
+            width: 200px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 20px white;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            padding: 30px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            width: 80%;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.7s ease-out;
+        }
+
+        .btn {
+            background: white;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 15px white;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .skill {
+            text-align: center;
+            width: 120px;
+        }
+
+        .skill img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .social-media a:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 10px white;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="glow">Portofolio Saya</h1>
+
+        <section id="profile" class="section">
+            <h2 class="glow">Foto Saya</h2>
+            <img src="udin.jpg" alt="Foto Saya">
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="glow">Tentang Saya</h2>
+            <p>Nama: muhammad ikhsan</p>
+            <p>Tanggal Lahir: 11 Agustus 2002</p>
+            <p>Asal: Jakarta</p>
+            <p>Hobi: Coding, Gaming</p>
+            <p>Pekerjaan: Siswa SMK & Calon Software Engineer</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="glow">Skill</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="iksan.webp" alt="">
+                    <p>Python</p>
+                </div>
+                <div class="skill">
+                    <img src="JavaScript.png" alt="">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <img src="aku.png" alt="">
+                    <p>HTML</p>
+                </div>
+                <div class="skill">
+<img src="css3.png" alt="">
+                    <p>CSS</p>
+                </div>
+                <div class="skill">
+                    <img src="iya.png" alt="">
+                    <p>C++</p>
+                </div>
+                <div class="skill">
+<img src="apa.jpg" alt="">
+                    <p>UI/UX Design</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="success-story" class="section">
+            <h2 class="glow">Kisah Sukses Saya</h2>
+            <p>Dulu, saya hanyalah seorang siswa SMK yang penasaran dengan dunia teknologi. Saya memulai dengan belajar HTML dan CSS, lalu merambah ke JavaScript dan Python. Dengan semangat belajar yang tinggi, saya mulai membuat proyek kecil, lalu berani menerima tantangan lebih besar.</p>
+            <p>Perjalanan saya tidak selalu mulus, banyak tantangan dan kegagalan. Namun, saya tidak menyerah. Saya terus belajar, mengikuti kursus online, dan membuat berbagai proyek. Hingga akhirnya, saya berhasil menjadi seorang software engineer di perusahaan ternama, membuktikan bahwa kerja keras dan ketekunan selalu membuahkan hasil!</p>
+        </section>
+        <section id="success-story" class="section">
+            <h2 class="glow">RIWAYAT PENDIDIKAN</h2>
+            <p>SDN CC04</p>
+            <p>SMP 04 PGY</p>
+            <P>SMK MUDAPA</P>
+            
+            
+            
+            
+            
+            </section>
+            <section id="success-story" class="section">
+              <h2 class="glow">VIDEO MOTIVASI
+            <video width="200" height="400" controls>
+    <source src="wee.mp4" type="video/mp4">
+    Browser tidak mendukung tag video.
+</video>
+        </section>
+        
+        <section id="contact" class="section">
+            <h2 class="glow">Kontak</h2>
+            <p>WhatsApp: +6281212685217</p>
+            <p>Email: siksan662@gmail.com</p>
+            <div class="social-media">
+                <a href="https://instagram.com/usernamekamu" style="background: #E1306C;">Instagram</a>
+                <a href="https://github.com/usernamekamu" style="background: #333;">GitHub</a>
+                <a href="https://linkedin.com/in/usernamekamu" style="background: #0077B5;">LinkedIn</a>
+            </div>
+        </section>
+
+        <button class="btn" onclick="showMessage()">Klik Saya!</button>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("Tetap semangat dalam belajar dan berjuang meraih impian!");
+        }
+
+        document.addEventListener("scroll", function () {
+            let sections = document.querySelectorAll(".section");
+            sections.forEach(section => {
+                let position = section.getBoundingClientRect().top;
+                let windowHeight = window.innerHeight;
+                if (position < windowHeight - 50) {
+                    section.style.opacity = "1";
+                    section.style.transform = "translateY(0)";
+                }
+            });
+        });
+    </script>
+</body>
+</html>
